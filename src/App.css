@@ -1,0 +1,64 @@
+.form{
+
+ padding: 2rem;
+ border: 1px solid black;
+ position: relative;
+ left: 10rem;
+}
+*{
+  background: aqua;
+}
+.input{
+  padding: 1rem 2rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+  
+  
+}
+.input::placeholder{
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.password{
+  padding: 1rem 2rem;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin-top: 2rem;
+
+}
+.password::placeholder{
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  word-spacing: 5px;
+  
+}
+.formInput button{
+  margin-top: 2rem;
+  padding: 1rem;
+  line-height: 1rem;
+  position: relative;
+  left: 5rem;
+  width: 5rem;
+  background: blue;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-left: 5px;
+  border-radius: 10px;
+}
+.formInput h1{
+  font-size: 2rem;
+  margin-top: -15px;
+  font-weight: bold;
+}
+/* .display{
+  display: none;
+} */
